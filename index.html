@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cirrus Programming Language</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="main-nav">
+            <div class="logo">Cirrus</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#getting-started">Get Started</a></li>
+                <li><a href="#faq">About & FAQ</a></li>
+                <li><a href="https://discord.gg/hPB7eFsRmY" target="_blank">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Fast, expressive, and feather-light.</h1>
+                <p class="subtitle">Cirrus is a modern, open-source, general-purpose programming language. It combines the performance of C with a clean, high-level syntax, making software development efficient and enjoyable.</p>
+                <div class="hero-buttons">
+                    <a href="#getting-started" class="btn btn-primary">Get Started</a>
+                    <a href="https://discord.gg/hPB7eFsRmY" target="_blank" class="btn btn-secondary">Join the Community</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2>Why Cirrus?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Modern Syntax, C-like Power</h3>
+                        <p>Enjoy an intuitive and clean syntax that feels familiar, without sacrificing the low-level control and performance you expect from C-family languages.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Compile to C, Run Anywhere</h3>
+                        <p>Cirrus compiles to highly portable C code. This means if a C compiler exists for a platform, Cirrus can run on it—from high-end servers to tiny microcontrollers.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Open Source & Community-Driven</h3>
+                        <p>Built under the MIT license, Cirrus is free and open to everyone. Join our growing community and help shape the future of a language built for developers, by developers.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Lightweight by Design</h3>
+                        <p>Named after the light and wispy clouds, Cirrus is designed with a minimal core and standard library, ensuring fast compilation and efficient performance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="getting-started" class="get-started-section">
+            <div class="container">
+                <h2>Get Started</h2>
+                <p class="section-intro">Cirrus is in the early stages of development. While there's no official release yet, you can see how simple the language is.</p>
+
+                <h3>Hello, World</h3>
+                <p>Here’s your first program in Cirrus:</p>
+                <pre><code class="language-cirrus">
+// Import the standard I/O library
+import io
+
+// The main function, entry point of the program
+void main() {
+    println("Hello, World!")
+}
+                </code></pre>
+                
+                <h3>Next Steps</h3>
+                <p>The compiler is under active development. The best way to get involved, ask questions, and stay up-to-date is by joining our Discord community.</p>
+            </div>
+        </section>
+
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <h2>About & FAQ</h2>
+                <div class="faq-item">
+                    <h4>What is Cirrus?</h4>
+                    <p>Cirrus is an in-development, general-purpose programming language. Our goal is to create a language that is both easy to learn for beginners and powerful enough for complex systems. By compiling to C, we leverage decades of compiler optimization and ensure broad hardware and operating system support from day one.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Why the name "Cirrus"?</h4>
+                    <p>Cirrus clouds are thin, wispy, and found at high altitudes. This name reflects our design philosophy for the language: it's <strong>lightweight</strong> ('thin'), has a clear and unobtrusive <strong>syntax</strong> ('wispy'), and provides a <strong>high level of abstraction</strong> while still being close to the metal ('high altitude').</p>
+                </div>
+                <div class="faq-item">
+                    <h4>When is the first official release?</h4>
+                    <p>The language is in its infancy and is being developed by a small team. There is no set release date for an official version. You can follow our progress and see the latest updates on our Discord server.</p>
+                </div>
+                 <div class="faq-item">
+                    <h4>How can I contribute?</h4>
+                    <p>We welcome all contributors! The best place to start is our Discord community. We will be setting up a public code repository soon where you can report issues, suggest features, and contribute code.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Community: <a href="https://discord.gg/hPB7eFsRmY" target="_blank">Discord</a></p>
+            <p>Licensed under the MIT License.</p>
+            <p>© 2025 - Lucas Maciel de Campos</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
